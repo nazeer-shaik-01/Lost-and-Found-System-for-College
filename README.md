@@ -125,6 +125,14 @@ Authorization: Bearer <token>
 
 ![All Found Items](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/All%20Found%20Items.png?raw=true)
 
+### 🧾 Report a New Item
+
+![Report a New Item](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Report%20a%20New%20Item.png?raw=true)
+
+### 📝 Submit a Claim
+
+![Submit a Claim](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Submit%20a%20Claim.png?raw=true)
+
 ### ✅ Claimed Items (Admin)
 
 ![Claimed Items](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Claimed%20Items.png?raw=true)
