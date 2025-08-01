@@ -6,13 +6,13 @@ A full-stack web application to help students and administrators manage lost and
 
 ## 🚀 Features
 
-* 🔍 Report lost or found items with details and optional images
-* 🧾 Submit claims for found items
-* ✅ Admin approval or denial of claims
-* 🗃️ View all lost or found items
-* 🔐 Secure login with role-based access (USER & ADMIN)
-* 🌐 CORS and token-based authentication included
-* 🖼️ Image upload and static serving
+* 🔍 Report lost or found items with details and optional images  
+* 🧾 Submit claims for found items  
+* ✅ Admin approval or denial of claims  
+* 🗃️ View all lost or found items  
+* 🔐 Secure login with role-based access (USER & ADMIN)  
+* 🌐 CORS and token-based authentication included  
+* 🖼️ Image upload and static serving  
 
 ---
 
@@ -31,6 +31,7 @@ A full-stack web application to help students and administrators manage lost and
 ## 📁 Project Structure
 
 ```
+
 campus-loss-found/
 ├── lost-and-found-api/     → Spring Boot backend
 │   ├── controller/
@@ -41,7 +42,8 @@ campus-loss-found/
 │   ├── config/
 │   └── security/
 ├── campus-frontend/        → Angular frontend
-```
+
+````
 
 ---
 
@@ -59,35 +61,35 @@ campus-loss-found/
 
 ### 🔹 Item APIs
 
-* `GET /api/items` — All items
-* `GET /api/items/found` — Found items only
-* `POST /api/items/lost` — Report lost item
-* `POST /api/items` — Add item
-* `PUT /api/items/{id}` — Update item (ADMIN)
-* `DELETE /api/items/{id}` — Delete item & claims (ADMIN)
+* `GET /api/items` — All items  
+* `GET /api/items/found` — Found items only  
+* `POST /api/items/lost` — Report lost item  
+* `POST /api/items` — Add item  
+* `PUT /api/items/{id}` — Update item (ADMIN)  
+* `DELETE /api/items/{id}` — Delete item & claims (ADMIN)  
 
 ### 🔹 Claim APIs
 
-* `POST /api/items/{id}/claim` — Claim an item
-* `GET /api/claims` — View all claims (ADMIN)
-* `PUT /api/claims/{id}/approve` — Approve claim (ADMIN)
-* `PUT /api/claims/{id}/deny` — Deny claim (ADMIN)
+* `POST /api/items/{id}/claim` — Claim an item  
+* `GET /api/claims` — View all claims (ADMIN)  
+* `PUT /api/claims/{id}/approve` — Approve claim (ADMIN)  
+* `PUT /api/claims/{id}/deny` — Deny claim (ADMIN)  
 
 ### 🔹 Auth API
 
-* `POST /api/auth/login` — Login and receive token
+* `POST /api/auth/login` — Login and receive token  
 
 ---
 
 ## 🔐 Authentication
 
-* Login with `username` and `password`
-* Receive token (UUID)
+* Login with `username` and `password`  
+* Receive token (UUID)  
 * Pass token in all secured API calls:
 
 ```http
 Authorization: Bearer <token>
-```
+````
 
 ---
 
@@ -96,6 +98,40 @@ Authorization: Bearer <token>
 * **Endpoint:** `POST /api/upload/image`
 * **Stored in:** `resources/static/images/`
 * **Access via:** `http://localhost:8080/images/<filename>`
+
+---
+
+## 📸 Screenshots
+
+> Click on any image to view full screen on GitHub.
+
+### 🔐 Login Page
+
+![Login Page](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Login-Page.png?raw=true)
+
+### 🏠 Home Page
+
+![Home Page](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Home%20Page.png?raw=true)
+
+### 🧾 Item Lost Details
+
+![Item Lost Details](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Item%20Lost%20Details.png?raw=true)
+
+### 🧳 Item Found Details
+
+![Item Found Details](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Item%20Found%20Details.png?raw=true)
+
+### 📦 All Found Items
+
+![All Found Items](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/All%20Found%20Items.png?raw=true)
+
+### ✅ Claimed Items (Admin)
+
+![Claimed Items](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Claimed%20Items.png?raw=true)
+
+### ⚙️ Admin Item Management
+
+![Admin Item Management](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Admin%20Item%20Management.png?raw=true)
 
 ---
 
@@ -142,8 +178,5 @@ This project is open-source and free to use for educational purposes.
 **Shaik Nazeer Baba**
 
 * GitHub: [nazeer-shaik-01](https://github.com/nazeer-shaik-01)
-* Project Repo: [Lost & Found System](https://github.com/nazeer-shaik-01/A-Lost-Found-System-for-College)
+* Project Repo: [Lost & Found System](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College)
 
----
-
-Let me know if you’d like this turned into a downloadable `.md` file or want a version tailored for a portfolio site!
