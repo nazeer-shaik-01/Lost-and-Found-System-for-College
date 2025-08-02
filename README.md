@@ -28,25 +28,6 @@ A full-stack web application to help students and administrators manage lost and
 
 ---
 
-## 📁 Project Structure
-
-```
-
-campus-loss-found/
-├── lost-and-found-api/     → Spring Boot backend
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   ├── dto/
-│   ├── model/
-│   ├── config/
-│   └── security/
-├── campus-frontend/        → Angular frontend
-
-````
-
----
-
 ## 👤 User Roles
 
 | Role   | Capabilities                                            |
@@ -78,26 +59,6 @@ campus-loss-found/
 ### 🔹 Auth API
 
 * `POST /api/auth/login` — Login and receive token  
-
----
-
-## 🔐 Authentication
-
-* Login with `username` and `password`  
-* Receive token (UUID)  
-* Pass token in all secured API calls:
-
-```http
-Authorization: Bearer <token>
-````
-
----
-
-## 🖼️ Image Upload
-
-* **Endpoint:** `POST /api/upload/image`
-* **Stored in:** `resources/static/images/`
-* **Access via:** `http://localhost:8080/images/<filename>`
 
 ---
 
@@ -140,38 +101,6 @@ Authorization: Bearer <token>
 ### ⚙️ Admin Item Management
 
 ![Admin Item Management](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College/blob/main/Admin%20Item%20Management.png?raw=true)
-
----
-
-## 🧑‍💻 Setup Instructions
-
-### 🔧 Backend (Spring Boot)
-
-```bash
-cd lost-and-found-api
-./mvnw spring-boot:run
-```
-
-* Runs on: `http://localhost:8080`
-
-### 🌐 Frontend (Angular)
-
-```bash
-cd campus-frontend
-npm install
-ng serve
-```
-
-* Runs on: `http://localhost:4200`
-
----
-
-## ✅ Sample Credentials
-
-| Role  | Username | Password |
-| ----- | -------- | -------- |
-| Admin | `admin`  | `admin`  |
-| User  | `user`   | `user`   |
 
 ---
 
