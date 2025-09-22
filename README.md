@@ -104,10 +104,4 @@ A full-stack web application to help students and administrators manage lost and
 
 ---
 
-## ✍️ Author
-
-**Shaik Nazeer Baba**
-
-* GitHub: [nazeer-shaik-01](https://github.com/nazeer-shaik-01)
-* Project Repo: [Lost & Found System](https://github.com/nazeer-shaik-01/Lost-and-Found-System-for-College)
 
