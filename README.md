@@ -104,12 +104,6 @@ A full-stack web application to help students and administrators manage lost and
 
 ---
 
-## 📜 License
-
-This project is open-source and free to use for educational purposes.
-
----
-
 ## ✍️ Author
 
 **Shaik Nazeer Baba**
